@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: llm-springAI
+  ai:
+    openai:
+      api-key: sk-jQQkhVoLf5HMqEvP2viCIvrz2vdoiRbcD3Cbh2e15Wq1S03P
+
+      base-url: https://api.chatanywhere.com.cn
+
+server:
+  address:  0.0.0.0
+  port: 8899
+  error:
+    whitelabel:
+      enabled: false
+
